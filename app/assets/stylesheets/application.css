@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+h1{
+
+font-size: 50px;
+text-align: center;
+}
+
+h2{
+
+font-size: 20px;
+text-align: right;
+}
+
+p{
+
+
+font-size: 30px;
+
+}
+
+
+.btn-primary{
+	background-color: #dff0d8;
+}
+
+
+.jumbotron{
+	width: 100%
+	height: a;
+}
+
+a{
+	text-center;
+	
+}
