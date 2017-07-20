@@ -1,18 +1,21 @@
 
+<div class="bg"></div>
 <div class="jumbotron">
    <div class="container">
 <h1 class='text-center'>Welcome to My World!</h1>
 </div>
 
-<table>
+<table class="table">
+  <thead class="thead-inverse">
   <tr>
     <th>Title</th>
     <th>Text</th>
     <th colspan="3"></th>
   </tr>
+  </thead>
  
   <% @articles.each do |article| %>
-    <tr>
+    <tr scope="row">
       <td><%= article.title %></td>
       <td><%= article.text %></td>
       <td><%= link_to 'Show', article_path(article) %></td>

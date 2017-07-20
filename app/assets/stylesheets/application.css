@@ -14,6 +14,23 @@
  *= require_self
  */
 
+html,body{
+  height: 100%;
+  width: 100%;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+}
+
+header {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
 h1{
 
 font-size: 50px;
@@ -39,10 +56,32 @@ font-size: 30px;
 }
 
 
+
+.bg {
+  position: fixed;
+  background: url("IMG_2117.JPG") center center;/*chosen image =>you image*/
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: scroll;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    /*filter: blur(5px);*/
+ 
+}
+
 .jumbotron{
 	width: 100%
-	height: a;
+	height: auto;
+	padding-top:100px;
+	padding-bottom: 100px;
 }
+
+
+
+
 
 a{
 	text-center;
