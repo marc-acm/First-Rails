@@ -1,5 +1,4 @@
 
-<div class="bg"></div>
 <div class="jumbotron">
    <div class="container">
 <h1 class='text-center'>Welcome to My World!</h1>
@@ -15,7 +14,7 @@
   </thead>
  
   <% @articles.each do |article| %>
-    <tr scope="row">
+    <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
       <td><%= link_to 'Show', article_path(article) %></td>
